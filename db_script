@@ -1,0 +1,9 @@
+create database fooddb;
+use fooddb; 
+# drop table foods;
+CREATE TABLE foods (
+	id	int primary key auto_increment,
+	name varchar(52) NOT NULL UNIQUE,
+	quantity int,
+	price float
+);
